@@ -3,23 +3,15 @@
 > Wrap an array of promises to call a progress function.
 
 ## Purpose
-- What problem does this module solve? At least a few sentences.
-PLEASE_FILL_IN_HERE
+Progress notification as promises  in an array resolve.
 
 ## Usage
 
 ```js
-// Several examples of usage.
-// Usually copying and pasting code from the tests and making the code standalone suffices.
-// PLEASE_FILL_IN_HERE
+const promisesProgress = require('promises-progress');
+const promises = [/* my array of promises */];
+const wrappedPromises = promisesProgress(promises, (progress) => {/* do stuff on progress notification */});
 ```
-
-## API
-
-PLEASE_FILL_IN_HERE
-
-Note: To regenerate this section from the jsdoc run `npm run docs` and paste
-the output above.
 
 ## Installation
 
