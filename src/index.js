@@ -3,5 +3,6 @@ module.exports = function (promises, progress) {
   return promises.map(async p => {
     await p;
     progress(++complete / promises.length);
+    return p;
   });
 };
