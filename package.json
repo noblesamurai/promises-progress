@@ -1,7 +1,7 @@
 {
   "name": "promises-progress",
   "description": "Wrap an array of promises to call a progress function.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Tim Allen <tim@noblesamurai.com>",
   "license": "BSD",
   "main": "src/index.js",
